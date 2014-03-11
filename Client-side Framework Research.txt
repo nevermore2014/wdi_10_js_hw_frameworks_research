@@ -1,12 +1,14 @@
 Backbone
 
-Backbone supplies structure to JavaScript-heavy applications by providing models key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to existing application over a RESTful JSON interface.
+Backbone is the most flexible framework as it is the one with the less conventions and opinions. It supplies structure to JavaScript-heavy applications by providing models key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to existing application over a RESTful JSON interface.
 
 How is Backbone framework similar to AngularJS, and how is it different? What kind of templates does it use?
 
 Angular is more suitable for new sites and is easily to make quick changes, developers are able to create easily testable code and test it often with it. Angular has a lot of its own terms and jargon, it includes some features no other JavaScript solution does.
 
-Backbone has a very small download size of 6.4k compared with AngularJS, which is 39k. With its extremely lightweight size, Backbone is good for building fast and responsive applications.Backbone's framework is remarkably hands-off, experienced JavaScript developers can quickly get started, but junior developers might write a alot of repetitive code with Backbone, so campared with AngularJS, Backbone is less suitable for novice developers.
+Backbone has a very small download size of 6.4k compared with AngularJS, which is 39k. With its extremely lightweight size, Backbone is good for building fast and responsive applications.Backbone's framework is remarkably hands-off, experienced JavaScript developers can quickly get started and be very productive with it, but junior developers might write a a lot of repetitive code with Backbone, so campared with AngularJS, Backbone is less suitable for novice developers. Backbone has a much stronger dependency on JQuery than Angular, while a Front End project with Angular can make do without JQuery. There is not enough opinions to know how to best structure the code with Backbone.
+
+Both AngularJS and Backbone has a large community, you can find a lot of tutorial and activity. And both of them can deal with Memory leak safety quitely effecively as long as you follow the best practices.
 
 By default, Backbone.js uses the templating engine of Underscore.js which makes sense because Backbone has a hard dependency on Underscore. Backbone allows for other templating engine as well.
 
